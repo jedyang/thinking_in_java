@@ -5,3 +5,5 @@
 - boolean类型所占空间的大小没有明确指定，仅定义为能够取字面值true或者false。
 
 - java能保证成员变量获得默认初始化。但是不保证局部变量，局部变量得到的可能是任意值，这和c/c++一样，所以java编译器要求必须显式初始化局部变量。
+
+- javadoc只能为public和protected成员进行文档注释，private和默认的注释会被忽略，但是可以用-private进行标记，以便将private的注释也包含在内。
