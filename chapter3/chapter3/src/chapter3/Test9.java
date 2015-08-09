@@ -15,6 +15,12 @@ public class Test9 {
 		System.out.println(f4);
 		System.out.println(f5);
 		System.out.println(f6);
+		
+		// int值得大小在正负21亿之间
+		System.out.println("========================");
+		System.out.println(Integer.MAX_VALUE);
+		System.out.println(Integer.MIN_VALUE);
+		System.out.println(Integer.SIZE);
 
 	}
 
